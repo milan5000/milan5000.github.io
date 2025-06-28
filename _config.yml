@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Daniel Milan"
   pronouns         : # example: "she/her"  
-  bio              : "Undergrad studying engineering and mathematics. Passionate about computer systems, optimization, autonomy, space technology, and more."
+  bio              : "Undergrad studying engineering and mathematics. Passionate about autonomy, HPC, computer systems, and more."
   location         : "Houston, TX"
   employer         : "University of Texas at Austin"
   uri              : # URL
@@ -216,7 +216,7 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: false
+    output: true
     permalink: /:collection/:path/
   publications:
     output: true
@@ -225,7 +225,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: false
+    output: true
     permalink: /:collection/:path/
 
 
